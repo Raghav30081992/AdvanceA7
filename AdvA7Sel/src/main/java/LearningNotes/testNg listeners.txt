@@ -1,0 +1,7 @@
+TestNG Listeners:
+Listener is defined as interface that modifies the default TestNG’s behavior.
+As the name suggests Listeners “listen” to the event defined in the selenium script and behave accordingly. 
+It is used in selenium by implementing Listeners Interface. It allows customizing TestNG reports or logs.
+
+Types of Listeners in TestNG:
+*)ITestListener

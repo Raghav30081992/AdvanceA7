@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="4" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reporte generation started]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Success: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case success: script4]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Failed: script3]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Success: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case success: script6]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Success: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case success: script5]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Failed: script2]]>
+    </line>
+    <line>
+      <![CDATA[Test case started: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case Success: ]]>
+    </line>
+    <line>
+      <![CDATA[Test case success: script6]]>
+    </line>
+    <line>
+      <![CDATA[Report]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-14T15:47:33 IST" name="Suite" finished-at="2024-07-14T15:50:34 IST" duration-ms="180853">
+    <groups>
+      <group name="Organisation">
+        <method signature="Script2.script2()[pri:0, instance:VTriger_Scripts.Script2@2892d68]" name="script2" class="VTriger_Scripts.Script2"/>
+        <method signature="Script4.script4()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" name="script4" class="VTriger_Scripts.Script4"/>
+      </group> <!-- Organisation -->
+      <group name="Leads">
+        <method signature="Script1.script6()[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" name="script6" class="VTriger_Scripts.Script1"/>
+      </group> <!-- Leads -->
+    </groups>
+    <test started-at="2024-07-14T15:47:33 IST" name="Test" finished-at="2024-07-14T15:50:34 IST" duration-ms="180853">
+      <class name="VTriger_Scripts.Script6">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script6@4145bad8]" started-at="2024-07-14T15:49:04 IST" name="beforeClass" finished-at="2024-07-14T15:49:11 IST" duration-ms="6918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script6@4145bad8]" started-at="2024-07-14T15:49:11 IST" name="beforeMethod" finished-at="2024-07-14T15:49:15 IST" duration-ms="4847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script6.script6()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script6()[pri:0, instance:VTriger_Scripts.Script6@4145bad8]" started-at="2024-07-14T15:49:15 IST" name="script6" finished-at="2024-07-14T15:49:20 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Success: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case success: script6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script6 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script6@4145bad8]" started-at="2024-07-14T15:49:20 IST" name="afterMethod" finished-at="2024-07-14T15:49:24 IST" duration-ms="4657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script6@4145bad8]" started-at="2024-07-14T15:49:24 IST" name="afterClass" finished-at="2024-07-14T15:49:26 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- VTriger_Scripts.Script6 -->
+      <class name="VTriger_Scripts.Script5">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script5@d86a6f]" started-at="2024-07-14T15:49:26 IST" name="beforeClass" finished-at="2024-07-14T15:49:32 IST" duration-ms="6478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script5@d86a6f]" started-at="2024-07-14T15:49:32 IST" name="beforeMethod" finished-at="2024-07-14T15:49:36 IST" duration-ms="4392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script5.script5()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script5()[pri:0, instance:VTriger_Scripts.Script5@d86a6f]" started-at="2024-07-14T15:49:36 IST" name="script5" finished-at="2024-07-14T15:49:43 IST" duration-ms="6636" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Success: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case success: script5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script5 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script5@d86a6f]" started-at="2024-07-14T15:49:43 IST" name="afterMethod" finished-at="2024-07-14T15:49:46 IST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script5@d86a6f]" started-at="2024-07-14T15:49:46 IST" name="afterClass" finished-at="2024-07-14T15:49:47 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- VTriger_Scripts.Script5 -->
+      <class name="VTriger_Scripts.Script4">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:47:33 IST" name="beforeSuite" finished-at="2024-07-14T15:47:33 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reporte generation started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:47:33 IST" name="beforeClass" finished-at="2024-07-14T15:47:41 IST" duration-ms="7552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:47:41 IST" name="beforeMethod" finished-at="2024-07-14T15:47:46 IST" duration-ms="4727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script4.script4() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script4()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:47:46 IST" name="script4" finished-at="2024-07-14T15:48:11 IST" duration-ms="25570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Success: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case success: script4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:48:11 IST" name="afterMethod" finished-at="2024-07-14T15:48:14 IST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:48:14 IST" name="afterClass" finished-at="2024-07-14T15:48:15 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:VTriger_Scripts.Script4@20140db9]" started-at="2024-07-14T15:50:34 IST" name="afterSuite" finished-at="2024-07-14T15:50:35 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- VTriger_Scripts.Script4 -->
+      <class name="VTriger_Scripts.Script3">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script3@63376bed]" started-at="2024-07-14T15:48:15 IST" name="beforeClass" finished-at="2024-07-14T15:48:23 IST" duration-ms="7727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script3@63376bed]" started-at="2024-07-14T15:48:23 IST" name="beforeMethod" finished-at="2024-07-14T15:48:27 IST" duration-ms="4487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script3.script3() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script3()[pri:0, instance:VTriger_Scripts.Script3@63376bed]" started-at="2024-07-14T15:48:27 IST" name="script3" finished-at="2024-07-14T15:49:00 IST" duration-ms="32327" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title=' Save [Alt+S]']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [233be08cce1f94a7b9bfa162604ce31d, findElement {using=xpath, value=//input[@title=' Save [Alt+S]']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51932/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 233be08cce1f94a7b9bfa162604ce31d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@title=' Save [Alt+S]']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [233be08cce1f94a7b9bfa162604ce31d, findElement {using=xpath, value=//input[@title=' Save [Alt+S]']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\RAGHAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51932}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51932/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 233be08cce1f94a7b9bfa162604ce31d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+at VTriger_Scripts.Script3.script3(Script3.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Failed: script3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script3@63376bed]" started-at="2024-07-14T15:49:00 IST" name="afterMethod" finished-at="2024-07-14T15:49:03 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script3@63376bed]" started-at="2024-07-14T15:49:03 IST" name="afterClass" finished-at="2024-07-14T15:49:04 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- VTriger_Scripts.Script3 -->
+      <class name="VTriger_Scripts.Script2">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script2@2892d68]" started-at="2024-07-14T15:49:47 IST" name="beforeClass" finished-at="2024-07-14T15:49:54 IST" duration-ms="6533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script2@2892d68]" started-at="2024-07-14T15:49:54 IST" name="beforeMethod" finished-at="2024-07-14T15:49:58 IST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script2.script2() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script2()[pri:0, instance:VTriger_Scripts.Script2@2892d68]" started-at="2024-07-14T15:49:58 IST" name="script2" finished-at="2024-07-14T15:50:10 IST" duration-ms="11962" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title not matched expected [test] but found [Administrator - Organizations - vtiger CRM 5 - Commercial Open Source CRM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title not matched expected [test] but found [Administrator - Organizations - vtiger CRM 5 - Commercial Open Source CRM]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at VTriger_Scripts.Script2.script2(Script2.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Failed: script2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script2@2892d68]" started-at="2024-07-14T15:50:10 IST" name="afterMethod" finished-at="2024-07-14T15:50:12 IST" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script2@2892d68]" started-at="2024-07-14T15:50:12 IST" name="afterClass" finished-at="2024-07-14T15:50:13 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- VTriger_Scripts.Script2 -->
+      <class name="VTriger_Scripts.Script1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" started-at="2024-07-14T15:50:13 IST" name="beforeClass" finished-at="2024-07-14T15:50:20 IST" duration-ms="6491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" started-at="2024-07-14T15:50:20 IST" name="beforeMethod" finished-at="2024-07-14T15:50:24 IST" duration-ms="4008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void VTriger_Scripts.Script1.script6()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script6()[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" started-at="2024-07-14T15:50:24 IST" name="script6" finished-at="2024-07-14T15:50:31 IST" duration-ms="6936" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case Success: ]]>
+            </line>
+            <line>
+              <![CDATA[Test case success: script6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script6 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" started-at="2024-07-14T15:50:31 IST" name="afterMethod" finished-at="2024-07-14T15:50:33 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:VTriger_Scripts.Script1@5ab956d7]" started-at="2024-07-14T15:50:33 IST" name="afterClass" finished-at="2024-07-14T15:50:34 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- VTriger_Scripts.Script1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+Assertion: to validate the test script we use Assertions.
+1)hard assert
+2)soft assert
+
+Hard assert:
+1)static method
+2)complex TS
+3)when ever your TS fail it will through the error at same line & stop execution
+AssertEqual();
+
+Soft assert:
+1)non static method
+2)simple TS
+3)when ever your TS fail it will execute the next line code & through the error at last 
+4)AssertAll();
+SoftAssert sa=new SoftAssert();
+sa.AssertEquals();
+sa.AssertAll();
+
+Methods:
+1)AssertEquals("EC","AC");
+2)AssertNotEquals("EC","AC");
+3)AssertTrue(true);
+4)AssertFalse(false);

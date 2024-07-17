@@ -1,0 +1,28 @@
+Extent Report:
+
+ Extent Reports is an open-source reporting library useful for test automation. 
+It can be easily integrated with major testing frameworks like JUnit, TestNG, etc.
+ These reports are HTML documents.
+ They also allow the generation of custom logs, snapshots, and other customized details.
+ Once an automated test script runs successfully, testers need to generate a test execution report.
+ While TestNG does provide a default report, they do not provide the details.
+
+Extent Reports in Selenium contain two major, frequently used classes
+ ExtentReports class
+ ExtentTest class
+
+Syntax :
+ExtentSparkReporter reporter=new ExtentSparkReporter("Path of directory to store the resultant HTML file");
+ExtentReports reports = new ExtentReports();
+reports.attachReporter(reporter);
+ExtentTest test = reports.createTest("Extent Test");
+Reports.flush();
+
+
+plugin:
+<dependency>
+	<groupId>com.aventstack</groupId>
+		<artifactId>extentreports</artifactId>
+		<version>5.1.0</version>
+</dependency>
+

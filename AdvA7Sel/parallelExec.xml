@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" name="Test" parallel="true">
+    <classes>
+      <class name="VTriger_Scripts.Script4"/>
+      <class name="VTriger_Scripts.Script3"/>
+      <class name="VTriger_Scripts.Script6"/>
+      <class name="VTriger_Scripts.Script5"/>
+      <class name="VTriger_Scripts.Script2"/>
+      <class name="VTriger_Scripts.Script1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

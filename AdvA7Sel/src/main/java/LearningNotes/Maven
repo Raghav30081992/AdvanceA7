@@ -1,0 +1,120 @@
+Maven:
+*)It is a build testing tool / build management tool which is used for build creation & build testing 
+& build deployment. 
+*)Developers use this tool for build creation, build installation and build deployment.
+*)In Automation we use it for build testing and also to handle dependencies.
+
+Advantages:
+1)Handling dependent jars
+2)It provide a quick setup for new Automations Engineer
+3)We can execute Automations Script from cmd prompt
+4)Maven support Jenkins tool
+
+ Maven Commands:
+1)mvn clean : used to clean the reports present in target folder
+2)mvn validate : used to validate the entire framework
+3)mvn compile : use to check the compilation and integration issue and if any jar is missing it will start downloading the jar automatically
+4)mvn test : used to execute all the test scripts in src/test/java
+
+
+mvn -e for error stack trace as well
+
+
+If plugin is not added and you run mvn test all with _test prefix will run if surefire plugin is added all mentioned in suitexml tag will be executed
+
+We need to download maven apache download zip file to run our testcases via command prompt
+once downloaded and extracted paste path of downloaded folder in  uservariable m2_home
+path - add in path variable path till bin folder
+open project and select project do right click show in system explorer
+in naviagation bar open cmd
+type mvn -version - should display the added version
+
+mvn -Dtest=ClassName test -- to run individual script via command prompt
+mvn test if we want to run all 6 test cases
+mvn test -P ID    -- This is command to run profile base xml and id will specify which ID
+
+If you have multiple xml suites you can run them by adding profiles of each
+If we give ID A only A will execute if we give B only B having xml suite only that will execute
+
+*)Surefire-plugin:-
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.2.5</version>
+			<configuration>
+				<suiteXmlFiles>
+					<suiteXmlFile>batch.xml</suiteXmlFile>
+					<suiteXmlFile>ST.xml</suiteXmlFile>
+				</suiteXmlFiles>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+*)profiling:-
+<profiles>
+		<profile>
+			<id>A</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.2.3</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>ft.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>B</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.2.3</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>IT.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>C</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.2.3</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>ST.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	
+	maven command:-
+D- define
+P-profile
+
+1)to execute one script from command prompt:- mvn test -Dtest=Script1_Test
+2)to execute entire script:- mvn test
+3)to execute xml suite:- add the surefire plugin in pom.xml & mvn test in command prompt
+4)profiling:- mvn test -P id 
+
+
